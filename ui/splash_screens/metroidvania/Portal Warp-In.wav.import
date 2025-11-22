@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dmokj3hu0p7ft"
+path="res://.godot/imported/Portal Warp-In.wav-5394161f29b0fab10d383f508162d2ed.sample"
+
+[deps]
+
+source_file="res://ui/splash_screens/metroidvania/Portal Warp-In.wav"
+dest_files=["res://.godot/imported/Portal Warp-In.wav-5394161f29b0fab10d383f508162d2ed.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

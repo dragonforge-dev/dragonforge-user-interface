@@ -1,0 +1,33 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Dragonforge User Interface v0.1"
+config/description="A user interface autoload singleton to handle UI screens for a game."
+config/version="0.1"
+run/main_scene="uid://cy6kue2dunex3"
+config/features=PackedStringArray("4.5", "Forward Plus")
+config/icon="uid://8l0qimhyn4oi"
+
+[audio]
+
+buses/default_bus_layout="res://addons/dragonforge_sound/resources/sound_component_bus_layout.tres"
+
+[autoload]
+
+Disk="*res://addons/dragonforge_disk/disk.tscn"
+UI="*res://addons/dragonforge-user-interface/ui.tscn"
+Sound="*res://addons/dragonforge_sound/sound.tscn"
+Music="*res://addons/dragonforge_sound/music.tscn"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/dragonforge-user-interface/plugin.cfg", "res://addons/dragonforge_disk/plugin.cfg", "res://addons/dragonforge_sound/plugin.cfg")

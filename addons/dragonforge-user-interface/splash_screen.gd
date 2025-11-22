@@ -1,0 +1,38 @@
+@icon("res://addons/dragonforge-user-interface/assets/textures/icons/splash_screen.svg")
+class_name SplashScreen extends Control
+
+signal splash_complete
+
+const MUTED_BUS = &"Mute"
+const SHOW = "Show"
+
+## Check this to turn off splash screen sound to allow the playing of theme
+## music on startup.
+@export var mute_sound = false
+## The amount of time the splash screen should be shown.
+@export var display_time: float = 1.0
+## If a [VideoStreamPlayer] is placed here, it will automatically be run.
+@export var video_player: VideoStreamPlayer
+## If an [AnimationPlayer] is placed here, it will automatically play the "Show" animation.
+@export var animation_player: AnimationPlayer
+
+
+func _ready() -> void:
+	hide()
+	visibility_changed.connect(_on_visibility_changed)
+
+
+func _on_visibility_changed():
+	if visible == true:
+		if video_player != null:
+			if mute_sound:
+				video_player.bus = MUTED_BUS
+			video_player.play()
+		if animation_player != null and animation_player.has_animation(SHOW):
+			if mute_sound:
+				for audio_stream_player in get_children():
+					if audio_stream_player is AudioStreamPlayer:
+						audio_stream_player.bus = MUTED_BUS
+			animation_player.play(SHOW)
+		await get_tree().create_timer(display_time).timeout
+		splash_complete.emit()
