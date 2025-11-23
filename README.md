@@ -7,7 +7,7 @@ For use with **Godot 4.5-stable** and later.
 The following dependencies are included in the addons folder and are required for the template to function.
 - [Dragonforge Disk (Save/Load) 0.5](https://github.com/dragonforge-dev/dragonforge-disk)
 - [Dragonforge Sound 0.14.1](https://github.com/dragonforge-dev/dragonforge-sound)
-- [Dragonforge State Machine 0.3](https://github.com/dragonforge-dev/dragonforge-state-machine)
+- [Dragonforge State Machine 0.4](https://github.com/dragonforge-dev/dragonforge-state-machine)
 # Installation Instructions
 1. Copy all the folders from the `addons` folder into your project's `addons` folder.
 2. In your project go to **Project -> Project Settings...**
