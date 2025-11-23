@@ -24,3 +24,13 @@ func open_screen_by_name(screen_name: String) -> void:
 		_current_screen.hide()
 	_current_screen = _screens[screen_name]
 	_current_screen.show()
+
+
+## Opens a new [Screen] by the screen's name without closing the currently open screen.
+func open_pop_up_by_name(screen_name: String) -> void:
+	_screens[screen_name].show()
+
+
+## Closes a [Screen] by the screen's name.
+func close_screen_by_name(screen_name: String) -> void:
+	_screens[screen_name].hide()

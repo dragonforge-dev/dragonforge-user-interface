@@ -48,3 +48,5 @@ The **UI** autoload scene.
 - `register_screen(screen: Screen) -> void` Registers a new screen to the UI autoload ensuring only one screen at a time is open. (Used by the **Screen** object.)
 - `open_screen(screen: Screen) -> void` Opens a new **Screen** and closes the currently open screen.
 - `open_screen_by_name(screen_name: String) -> void` Opens a new **Screen** by the screen's name and closes the currently open screen.
+- `open_pop_up_by_name(screen_name: String) -> void` Opens a new **Screen** by the screen's name without closing the currently open screen.
+- `close_screen_by_name(screen_name: String) -> void` Closes a **Screen** by the screen's name.
