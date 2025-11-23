@@ -4,11 +4,13 @@ var _screens: Dictionary[String, Screen]
 var _current_screen: Screen
 
 
+## Registers a new screen to the UI autoload ensuring only one screen at a time
+## is open. (Used by the [Screen] object.)
 func register_screen(screen: Screen) -> void:
 	_screens[screen.name] = screen
 
 
-## Call to open a new screen.
+## Opens a new [Screen] and closes the currently open screen.
 func open_screen(screen: Screen) -> void:
 	if _current_screen:
 		_current_screen.hide()
@@ -16,7 +18,7 @@ func open_screen(screen: Screen) -> void:
 	_current_screen.show()
 
 
-## Call to open a new screen by the screen's name.
+## Opens a new [Screen] by the screen's name and closes the currently open screen.
 func open_screen_by_name(screen_name: String) -> void:
 	if _current_screen:
 		_current_screen.hide()

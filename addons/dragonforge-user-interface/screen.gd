@@ -1,3 +1,7 @@
+## A default screen that is tracked by the UI autoload. All buttons in the screen are automatically
+## hooked up to play the click sound set up in the Sound autoload. It also allows you to set a
+## default control for when the screen loads, and tracks the last button pressed for when a player
+## returns to this screen.
 @icon("res://addons/dragonforge-user-interface/assets/textures/icons/screen.svg")
 class_name Screen extends Control
 
