@@ -1,6 +1,6 @@
 [gd_scene load_steps=11 format=3 uid="uid://btraax77thglo"]
 
-[ext_resource type="Script" uid="uid://duw1rutluws5t" path="res://addons/dragonforge-user-interface/splash_screen.gd" id="1_1hlfr"]
+[ext_resource type="Script" uid="uid://duw1rutluws5t" path="res://addons/dragonforge_user_interface/splash_screen.gd" id="1_1hlfr"]
 [ext_resource type="Texture2D" uid="uid://c7q2dwrrattjw" path="res://ui/splash_screens/metroidvania/MetroidvaniaMonth.png" id="2_7da58"]
 [ext_resource type="FontFile" uid="uid://cksm4gn1gitfg" path="res://ui/splash_screens/metroidvania/IMMORTAL.ttf" id="3_4isl2"]
 [ext_resource type="AudioStream" uid="uid://cwds0b8jbsi8n" path="res://ui/splash_screens/metroidvania/Jingles Danger 001.wav" id="4_1hlfr"]

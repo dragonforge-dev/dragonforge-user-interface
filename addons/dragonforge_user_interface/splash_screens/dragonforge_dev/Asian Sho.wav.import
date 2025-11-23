@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://cslvxevoonx7j"
-path="res://.godot/imported/Asian Sho.wav-5e758bb4f3a4bd068ad341212427e5d8.sample"
+path="res://.godot/imported/Asian Sho.wav-9899feecf5d6dad174409a8c7af01383.sample"
 
 [deps]
 
-source_file="res://addons/dragonforge-user-interface/splash_screens/dragonforge_dev/Asian Sho.wav"
-dest_files=["res://.godot/imported/Asian Sho.wav-5e758bb4f3a4bd068ad341212427e5d8.sample"]
+source_file="res://addons/dragonforge_user_interface/splash_screens/dragonforge_dev/Asian Sho.wav"
+dest_files=["res://.godot/imported/Asian Sho.wav-9899feecf5d6dad174409a8c7af01383.sample"]
 
 [params]
 

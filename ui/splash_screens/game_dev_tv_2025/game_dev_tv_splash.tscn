@@ -1,6 +1,6 @@
 [gd_scene load_steps=9 format=3 uid="uid://chwyrfteil51a"]
 
-[ext_resource type="Script" uid="uid://duw1rutluws5t" path="res://addons/dragonforge-user-interface/splash_screen.gd" id="1_cykjl"]
+[ext_resource type="Script" uid="uid://duw1rutluws5t" path="res://addons/dragonforge_user_interface/splash_screen.gd" id="1_cykjl"]
 [ext_resource type="Texture2D" uid="uid://dx1npkndh45xc" path="res://ui/splash_screens/game_dev_tv_2025/GameDevTVGameJamBackground.jpg" id="2_uspoo"]
 [ext_resource type="Texture2D" uid="uid://dnow14ww1mqrs" path="res://ui/splash_screens/game_dev_tv_2025/GameDevTVGameJamLogo.png" id="3_w60gc"]
 [ext_resource type="Texture2D" uid="uid://doe2fndbvnpuw" path="res://ui/splash_screens/game_dev_tv_2025/TinyWorld.png" id="4_n80k4"]

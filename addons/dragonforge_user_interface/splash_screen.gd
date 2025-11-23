@@ -1,7 +1,7 @@
 ## A screen for display upon starting the game. Typically either plays a video
 ## or an animation. The sound can optionally be muted if you want to play one
 ## contiguous opening theme.
-@icon("res://addons/dragonforge-user-interface/assets/textures/icons/splash_screen.svg")
+@icon("res://addons/dragonforge_user_interface/assets/textures/icons/splash_screen.svg")
 class_name SplashScreen extends Control
 
 ## Indicates that this splash screen is done playing. Tied directly to the

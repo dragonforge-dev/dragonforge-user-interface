@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://byeeaufepae8d"
-path="res://.godot/imported/splash_screen.svg-7872c8642f4643fdc5d2e8d77c957669.ctex"
+uid="uid://8l0qimhyn4oi"
+path="res://.godot/imported/screen.svg-da96a541ed0960f1baf725382e0e5ff9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/dragonforge-user-interface/assets/textures/icons/splash_screen.svg"
-dest_files=["res://.godot/imported/splash_screen.svg-7872c8642f4643fdc5d2e8d77c957669.ctex"]
+source_file="res://addons/dragonforge_user_interface/assets/textures/icons/screen.svg"
+dest_files=["res://.godot/imported/screen.svg-da96a541ed0960f1baf725382e0e5ff9.ctex"]
 
 [params]
 

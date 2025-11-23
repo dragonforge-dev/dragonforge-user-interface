@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b8rvftwg2jdic"
-path="res://.godot/imported/Dragonforge Development Logo - Cropped.png-ec9673351495588071212a8af66586e8.ctex"
+uid="uid://byeeaufepae8d"
+path="res://.godot/imported/splash_screen.svg-a21b955028ec7460dfc3d1dd24cc1929.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/dragonforge-user-interface/splash_screens/dragonforge_dev/Dragonforge Development Logo - Cropped.png"
-dest_files=["res://.godot/imported/Dragonforge Development Logo - Cropped.png-ec9673351495588071212a8af66586e8.ctex"]
+source_file="res://addons/dragonforge_user_interface/assets/textures/icons/splash_screen.svg"
+dest_files=["res://.godot/imported/splash_screen.svg-a21b955028ec7460dfc3d1dd24cc1929.ctex"]
 
 [params]
 
@@ -38,3 +38,6 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
+svg/scale=1.0
+editor/scale_with_editor_scale=false
+editor/convert_colors_with_editor_theme=false

@@ -2,7 +2,7 @@
 ## hooked up to play the click sound set up in the Sound autoload. It also allows you to set a
 ## default control for when the screen loads, and tracks the last button pressed for when a player
 ## returns to this screen.
-@icon("res://addons/dragonforge-user-interface/assets/textures/icons/screen.svg")
+@icon("res://addons/dragonforge_user_interface/assets/textures/icons/screen.svg")
 class_name Screen extends Control
 
 ## The control that receives focus by default when starting.
