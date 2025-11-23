@@ -1,6 +1,6 @@
 class_name OpenScreenButton extends Button
 
-## Then name of the screen to open as it appears in the inspector.
+## The name of the screen to open as it appears in the inspector.
 @export var screen_to_open: String
 
 
