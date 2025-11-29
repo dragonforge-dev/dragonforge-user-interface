@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://nfpotea6f0lu"]
 
 [ext_resource type="Script" uid="uid://cprxft1lx8m4j" path="res://addons/dragonforge_user_interface/screen.gd" id="1_uxiie"]
-[ext_resource type="Script" uid="uid://bq1x7qgsp1es6" path="res://test/ui/buttons/button_open_screen.gd" id="2_5p0bm"]
+[ext_resource type="Script" uid="uid://bq1x7qgsp1es6" path="res://addons/dragonforge_user_interface/ui/buttons/button_open_screen.gd" id="2_5p0bm"]
 
 [node name="Main Screen" type="Control"]
 layout_mode = 3
