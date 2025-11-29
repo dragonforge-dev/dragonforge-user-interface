@@ -211,7 +211,7 @@ _data = {
 &"Show": SubResource("Animation_1v75n")
 }
 
-[node name="Metroidvania Month Splash" type="Control" node_paths=PackedStringArray("animation_player")]
+[node name="Metroidvania Month Jam Splash Screen" type="Control" node_paths=PackedStringArray("animation_player")]
 visible = false
 layout_mode = 3
 anchors_preset = 15
@@ -222,6 +222,7 @@ grow_vertical = 2
 script = ExtResource("1_1hlfr")
 display_time = 4.0
 animation_player = NodePath("AnimationPlayer")
+metadata/_custom_type_script = "uid://duw1rutluws5t"
 
 [node name="ColorRect" type="ColorRect" parent="."]
 layout_mode = 1
@@ -237,6 +238,8 @@ layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_left = -30.0
+offset_right = 30.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_constants/margin_left = 50

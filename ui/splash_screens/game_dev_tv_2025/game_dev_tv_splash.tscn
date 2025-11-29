@@ -178,7 +178,7 @@ _data = {
 &"Show": SubResource("Animation_1v75n")
 }
 
-[node name="GameDevTVSplash" type="Control" node_paths=PackedStringArray("animation_player")]
+[node name="Game Dev TV 2025 Jam Splash Screen" type="Control" node_paths=PackedStringArray("animation_player")]
 visible = false
 layout_mode = 3
 anchors_preset = 15
@@ -189,6 +189,7 @@ grow_vertical = 2
 script = ExtResource("1_cykjl")
 display_time = 10.85
 animation_player = NodePath("AnimationPlayer")
+metadata/_custom_type_script = "uid://duw1rutluws5t"
 
 [node name="TextureRect" type="TextureRect" parent="."]
 layout_mode = 1

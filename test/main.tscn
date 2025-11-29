@@ -16,7 +16,7 @@
 script = ExtResource("1_wms8s")
 main_screen = NodePath("Main Screen")
 main_background = NodePath("BackgroundColorRect")
-active_splash_screens = [NodePath("Godot Color Splash Screen"), NodePath("Godot Black and White Splash Screen"), NodePath("Dragonforge Dev Splash Screen"), NodePath("WildJamSplash"), NodePath("GameDevTVSplash"), NodePath("Metroidvania Month Splash"), NodePath("KenneyJam Splash"), NodePath("GameDevTVOctSplash")]
+active_splash_screens = [NodePath("Godot Color Splash Screen"), NodePath("Godot Black and White Splash Screen"), NodePath("Dragonforge Dev Splash Screen"), NodePath("Wild Jam Splash Screen"), NodePath("GameDevTVSplash"), NodePath("Metroidvania Month Splash"), NodePath("KenneyJam Splash"), NodePath("GameDevTVOctSplash")]
 
 [node name="Godot Color Splash Screen" parent="." instance=ExtResource("2_bf7fm")]
 
@@ -24,9 +24,9 @@ active_splash_screens = [NodePath("Godot Color Splash Screen"), NodePath("Godot 
 
 [node name="Dragonforge Dev Splash Screen" parent="." instance=ExtResource("4_x3l4o")]
 
-[node name="WildJamSplash" parent="." instance=ExtResource("5_06ubn")]
-
 [node name="GameDevTVSplash" parent="." instance=ExtResource("6_m7upb")]
+
+[node name="Wild Jam Splash Screen" parent="." instance=ExtResource("5_06ubn")]
 
 [node name="Metroidvania Month Splash" parent="." instance=ExtResource("7_8l5y5")]
 

@@ -228,7 +228,7 @@ _data = {
 &"Show": SubResource("Animation_4xdlc")
 }
 
-[node name="WildJamSplash" type="Control" node_paths=PackedStringArray("animation_player")]
+[node name="Wild Jam Splash Screen" type="Control" node_paths=PackedStringArray("animation_player")]
 visible = false
 layout_mode = 3
 anchors_preset = 15
@@ -239,6 +239,7 @@ grow_vertical = 2
 script = ExtResource("1_11bee")
 display_time = 21.0
 animation_player = NodePath("AnimationPlayer")
+metadata/_custom_type_script = "uid://duw1rutluws5t"
 
 [node name="ColorRect" type="ColorRect" parent="."]
 layout_mode = 1
