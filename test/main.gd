@@ -4,7 +4,7 @@ extends Node
 @export var main_background: Control
 ## All the splash screens to show, and the order to show them in. Add any 
 ## [SplashScreen] nodes you want shown at the beginning of the game. Leaving
-## this blank will cause the splash screen state to be skipped.
+## this blank will cause the splash screens to be skipped.
 @export var active_splash_screens: Array[SplashScreen]
 
 var _current_splash_screen: int = 0

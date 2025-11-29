@@ -1,22 +1,24 @@
 [![Static Badge](https://img.shields.io/badge/Godot%20Engine-4.5.stable-blue?style=plastic&logo=godotengine)](https://godotengine.org/)
 # Dragonforge User Interface
 A user interface autoload singleton to handle UI screens for a game.
-# Version 0.1
+# Version 0.1.1
 For use with **Godot 4.5-stable** and later.
 ## Dependencies
-The following dependencies are included in the addons folder and are required for the template to function.
+This plugin has no dependencies that are rewuired for the code to work.
+## Optional Dependencies
+The following dependencies are included in the addons folder and are required for the button click sound to work.
 - [Dragonforge Disk (Save/Load) 0.5](https://github.com/dragonforge-dev/dragonforge-disk)
 - [Dragonforge Sound 0.14.1](https://github.com/dragonforge-dev/dragonforge-sound)
-- [Dragonforge State Machine 0.4](https://github.com/dragonforge-dev/dragonforge-state-machine)
 # Installation Instructions
-1. Copy all the folders from the `addons` folder into your project's `addons` folder.
-2. In your project go to **Project -> Project Settings...**
-3. Select the **Plugins** tab.
-4. Check the **On checkbox** under **Enabled** for **Dragonforge Disk** (must be enabled **before** the Sound plugin or you will get errors).
-5. Check the **On checkbox** under **Enabled** for **Dragonforge Sound**.
-6. Check the **On checkbox** under **Enabled** for **Dragonforge User Interface**
-7. Press the **Close** button.
-8. Save your project.
+1. Copy all the `dragonforge_user_interface` folder from the `addons` folder into your project's `addons` folder.
+2. **Optionally** copy the `dragonforge_disk` and `dragon_forge_sound` folders from the `addons` folder into your project's `addons` folder (if you want the button click sound to work).
+3. In your project go to **Project -> Project Settings...**
+4. Select the **Plugins** tab.
+5. Check the **On checkbox** under **Enabled** for **Dragonforge User Interface**
+6. **Optionally** check the **On checkbox** under **Enabled** for **Dragonforge Disk** (must be enabled **before** the Sound plugin or you will get errors).
+7. **Optionally** check the **On checkbox** under **Enabled** for **Dragonforge Sound**.
+8. Press the **Close** button.
+9. Save your project.
 
 # Usage Instructions
 This is intended to be used with the - [Dragonforge Game Template](https://github.com/dragonforge-dev/dragonforge-game-template)
