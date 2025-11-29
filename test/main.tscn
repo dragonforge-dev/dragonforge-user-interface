@@ -24,9 +24,9 @@ active_splash_screens = [NodePath("Godot Color Splash Screen"), NodePath("Godot 
 
 [node name="Dragonforge Dev Splash Screen" parent="." instance=ExtResource("4_x3l4o")]
 
-[node name="GameDevTVSplash" parent="." instance=ExtResource("6_m7upb")]
-
 [node name="Wild Jam Splash Screen" parent="." instance=ExtResource("5_06ubn")]
+
+[node name="GameDevTVSplash" parent="." instance=ExtResource("6_m7upb")]
 
 [node name="Metroidvania Month Splash" parent="." instance=ExtResource("7_8l5y5")]
 
