@@ -1,6 +1,6 @@
 [gd_scene load_steps=11 format=3 uid="uid://c8d6shr5b4pl5"]
 
-[ext_resource type="Script" uid="uid://duw1rutluws5t" path="res://addons/dragonforge_user_interface/splash_screen.gd" id="1_11bee"]
+[ext_resource type="Script" uid="uid://duw1rutluws5t" path="res://addons/dragonforge_user_interface/ui/screens/splash_screen.gd" id="1_11bee"]
 [ext_resource type="Texture2D" uid="uid://dje7nw77fu8d" path="res://ui/splash_screens/wild_jam/GWJ-Full-Logo-tag.png" id="2_638f0"]
 [ext_resource type="Texture2D" uid="uid://b2aa1rdginnic" path="res://ui/splash_screens/wild_jam/broked.png" id="3_puho7"]
 [ext_resource type="Texture2D" uid="uid://dh0x1mp3k8578" path="res://ui/splash_screens/wild_jam/plants-for-hire.png" id="4_famk7"]
