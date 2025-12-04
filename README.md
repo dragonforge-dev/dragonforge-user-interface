@@ -1,7 +1,7 @@
 [![Static Badge](https://img.shields.io/badge/Godot%20Engine-4.5.stable-blue?style=plastic&logo=godotengine)](https://godotengine.org/)
 # Dragonforge User Interface
 A user interface autoload singleton to handle UI screens for a game.
-# Version 0.1.1
+# Version 0.1.2
 For use with **Godot 4.5-stable** and later.
 ## Dependencies
 This plugin has no dependencies that are rewuired for the code to work.

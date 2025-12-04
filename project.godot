@@ -10,9 +10,9 @@ config_version=5
 
 [application]
 
-config/name="Dragonforge User Interface v0.1.1"
+config/name="Dragonforge User Interface v0.1.2"
 config/description="A user interface autoload singleton to handle UI screens for a game."
-config/version="0.1.1"
+config/version="0.1.2"
 run/main_scene="uid://cy6kue2dunex3"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="uid://8l0qimhyn4oi"
