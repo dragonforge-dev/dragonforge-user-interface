@@ -12,11 +12,10 @@
 [ext_resource type="PackedScene" uid="uid://dhuu5xk4awvrj" path="res://ui/splash_screens/kenney_jam/kenney_jam_splash.tscn" id="8_aoua3"]
 [ext_resource type="PackedScene" uid="uid://bqnfpah7u60a5" path="res://ui/splash_screens/game_dev_tv_october_2025/game_dev_tv_oct_splash.tscn" id="9_42ajp"]
 
-[node name="Main" type="Node" node_paths=PackedStringArray("main_screen", "main_background", "active_splash_screens")]
+[node name="Main" type="Node" node_paths=PackedStringArray("main_screen", "main_background")]
 script = ExtResource("1_wms8s")
 main_screen = NodePath("Main Screen")
 main_background = NodePath("BackgroundColorRect")
-active_splash_screens = [NodePath("Godot Color Splash Screen"), NodePath("Godot Black and White Splash Screen"), NodePath("Dragonforge Dev Splash Screen"), NodePath("Wild Jam Splash Screen"), NodePath("GameDevTVSplash"), NodePath("Metroidvania Month Splash"), NodePath("KenneyJam Splash"), NodePath("GameDevTVOctSplash")]
 
 [node name="Godot Color Splash Screen" parent="." instance=ExtResource("2_bf7fm")]
 
