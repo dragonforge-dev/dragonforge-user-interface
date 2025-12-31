@@ -1,5 +1,5 @@
 [![Static Badge](https://img.shields.io/badge/Godot%20Engine-4.5.stable-blue?style=plastic&logo=godotengine)](https://godotengine.org/)
-# Dragonforge User Interface
+# Dragonforge User Interface <img src="/addons/dragonforge_user_interface/assets/textures/icons/screen.svg" width="32" alt="Screen Icon"/>
 A user interface autoload singleton to handle UI screens for a game.
 # Version 0.1.2
 For use with **Godot 4.5-stable** and later.
@@ -29,12 +29,12 @@ Three splash screens are included in the `addons` folder under `splash_screens`.
 
 # Class Descriptions
 
-## Screen
+## Screen <img src="/addons/dragonforge_user_interface/assets/textures/icons/screen.svg" width="32" alt="Screen Icon"/>
 A default screen that is tracked by the UI autoload. All buttons in the screen are automatically hooked up to play the click sound set up in the Sound autoload. It also allows you to set a default control for when the screen loads, and tracks the last button pressed for when a player returns to this screen.
 #### Export Variables
 - `default_focused_control: Control` The control that receives focus by default when starting.
 
-## Splash Screen
+## Splash Screen <img src="/addons/dragonforge_user_interface/assets/textures/icons/splash_screen.svg" width="32" alt="Splash Screen Icon"/>
 A screen for display upon starting the game. Typically either plays a video or an animation. The sound can optionally be muted if you want to play one contiguous opening theme.
 #### Signals
 - `signal splash_complete` Indicates that this splash screen is done playing. Tied directly to the display_time export variable.
