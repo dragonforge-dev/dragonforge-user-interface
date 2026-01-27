@@ -1,17 +1,17 @@
-[![Static Badge](https://img.shields.io/badge/Godot%20Engine-4.5.stable-blue?style=plastic&logo=godotengine)](https://godotengine.org/)
+[![Static Badge](https://img.shields.io/badge/Godot%20Engine-4.6.stable-blue?style=plastic&logo=godotengine)](https://godotengine.org/)
 [![License](https://img.shields.io/github/license/dragonforge-dev/dragonforge-user-interface?logo=mit)](https://github.com/dragonforge-dev/dragonforge-user-interface/blob/main/LICENSE)
 [![GitHub release badge](https://badgen.net/github/release/dragonforge-dev/dragonforge-user-interface/latest)](https://github.com/dragonforge-dev/dragonforge-user-interface/releases/latest)
 [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/dragonforge-dev/dragonforge-user-interface)](https://img.shields.io/github/languages/code-size/dragonforge-dev/dragonforge-user-interface)
 
 # Dragonforge User Interface <img src="/addons/dragonforge_user_interface/assets/textures/icons/screen.svg" width="32" alt="Screen Icon"/>
 A user interface autoload singleton to handle UI screens for a game.
-# Version 0.1.3
-For use with **Godot 4.5-stable** and later.
+# Version 0.2
+For use with **Godot 4.6-stable** and later.
 ## Dependencies
 This plugin has no dependencies that are rewuired for the code to work.
 ## Optional Dependencies
 The following dependencies are included in the addons folder and are required for the button click sound to work.
-- [Dragonforge Disk (Save/Load) 0.5](https://github.com/dragonforge-dev/dragonforge-disk)
+- [Dragonforge Disk (Save/Load) 0.7](https://github.com/dragonforge-dev/dragonforge-disk)
 - [Dragonforge Sound 0.14.2](https://github.com/dragonforge-dev/dragonforge-sound)
 # Installation Instructions
 1. Copy all the `dragonforge_user_interface` folder from the `addons` folder into your project's `addons` folder.
