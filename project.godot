@@ -14,9 +14,9 @@ compatibility/default_parent_skeleton_in_mesh_instance_3d=true
 
 [application]
 
-config/name="Dragonforge User Interface v0.2"
+config/name="Dragonforge User Interface v0.2.1"
 config/description="A user interface autoload singleton to handle UI screens for a game."
-config/version="0.2"
+config/version="0.2.1"
 run/main_scene="uid://cy6kue2dunex3"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="uid://8l0qimhyn4oi"
@@ -27,11 +27,8 @@ buses/default_bus_layout="res://addons/dragonforge_sound/resources/sound_compone
 
 [autoload]
 
-Disk="*res://addons/dragonforge_disk/disk.tscn"
-Sound="*res://addons/dragonforge_sound/sound.tscn"
-Music="*res://addons/dragonforge_sound/music.tscn"
 UI="*res://addons/dragonforge_user_interface/ui.tscn"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/dragonforge_disk/plugin.cfg", "res://addons/dragonforge_sound/plugin.cfg", "res://addons/dragonforge_user_interface/plugin.cfg")
+enabled=PackedStringArray("res://addons/dragonforge_user_interface/plugin.cfg")
