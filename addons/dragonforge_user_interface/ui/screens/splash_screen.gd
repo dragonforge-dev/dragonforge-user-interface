@@ -16,7 +16,7 @@ const SHOW = "Show"
 @export var mute_sound: bool = false
 ## The amount of time the splash screen should be shown. Ignored if either [member video_player] or
 ## [member animation_player] have values, instead waiting for their finished signal.
-@export var display_time: float = 1.0
+@export var display_time: float = 0.0
 ## If a [VideoStreamPlayer] is placed here, it will automatically be run. Ignored if left blank.
 @export var video_player: VideoStreamPlayer
 ## If an [AnimationPlayer] is placed here, it will automatically play the "Show" animation.
