@@ -40,7 +40,7 @@ A screen for display upon starting the game. Typically either plays a video or a
 - `signal splash_complete` Indicates that this splash screen is done playing. Tied directly to the display_time export variable.
 #### Export Variables
 - `mute_sound: bool = false` Check this to turn off splash screen sound to allow the playing of theme music on startup.
-- `display_time: float = 1.0` The amount of time the splash screen should be shown.
+- `display_time: float = 1.0` The amount of time the splash screen should be shown. Ignored if either [member video_player] or [member animation_player] have values, instead waiting for their finished signal.
 - `video_player: VideoStreamPlayer` If a **VideoStreamPlayer** is placed here, it will automatically be run. Ignored if left blank.
 - `animation_player: AnimationPlayer` If an **AnimationPlayer** is placed here, it will automatically play the "Show" animation. Ignored if left blank.
 
