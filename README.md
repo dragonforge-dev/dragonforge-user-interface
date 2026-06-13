@@ -1,12 +1,12 @@
-[![Static Badge](https://img.shields.io/badge/Godot%20Engine-4.6.2.stable-blue?style=plastic&logo=godotengine)](https://godotengine.org/)
+[![Static Badge](https://img.shields.io/badge/Godot%20Engine-4.6.3.stable-blue?style=plastic&logo=godotengine)](https://godotengine.org/)
 [![License](https://img.shields.io/github/license/dragonforge-dev/dragonforge-user-interface?logo=mit)](https://github.com/dragonforge-dev/dragonforge-user-interface/blob/main/LICENSE)
 [![GitHub release badge](https://badgen.net/github/release/dragonforge-dev/dragonforge-user-interface/latest)](https://github.com/dragonforge-dev/dragonforge-user-interface/releases/latest)
 [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/dragonforge-dev/dragonforge-user-interface)](https://img.shields.io/github/languages/code-size/dragonforge-dev/dragonforge-user-interface)
 
 # Dragonforge User Interface <img src="/addons/dragonforge_user_interface/assets/textures/icons/screen.svg" width="32" alt="Screen Icon"/>
 A user interface autoload singleton to handle UI screens for a game.
-# Version 0.2.2
-For use with **Godot 4.6.2-stable** and later.
+# Version 0.
+For use with **Godot 4.6.3.stable** and later.
 ## Dependencies
 This plugin has no dependencies that are required for the code to work.
 # Installation Instructions
