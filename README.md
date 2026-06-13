@@ -5,7 +5,7 @@
 
 # Dragonforge User Interface <img src="/addons/dragonforge_user_interface/assets/textures/icons/screen.svg" width="32" alt="Screen Icon"/>
 A user interface autoload singleton to handle UI screens for a game.
-# Version 0.
+# Version 0.3
 For use with **Godot 4.6.3.stable** and later.
 ## Dependencies
 This plugin has no dependencies that are required for the code to work.
